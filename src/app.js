@@ -10,6 +10,12 @@ app.use(express.json())
 app.use(cookieParser())
 
 
+app.get("/",(req,res) => {
+    res.status(200).json({
+        message: "Banking Backend API is up and running"
+    })
+})
+
 app.use("/api/auth",authRouter);
 app.use("/api/accounts",accountRouter)
 app.use("/api/transactions",transactionRoutes)
