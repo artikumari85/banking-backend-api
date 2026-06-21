@@ -14,7 +14,7 @@ const accountSchema = new mongoose.Schema({
             values:["ACTIVE","FROZEN","CLOSED"],
             message:"Status can be either ACTIVE,FROZEN or  CLOSED"
         },
-        default: "ACTIVE"   /**jb bhi account create hoga by default active rhega */
+        default: "ACTIVE"   
     },
     currency:{
         type:String,
