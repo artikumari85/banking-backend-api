@@ -1,0 +1,34 @@
+{
+  "name": "banking-backend-api",
+  "version": "1.0.0",
+  "description": "A Node.js, Express, and MongoDB backend API for banking accounts, ledger entries, and idempotent transactions.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "mongoose",
+    "ledger",
+    "transactions",
+    "jwt",
+    "backend"
+  ],
+  "author": "Shiv Kumar",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.6.3",
+    "nodemailer": "^8.0.11"
+  }
+}
